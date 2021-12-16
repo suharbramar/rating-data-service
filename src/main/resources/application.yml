@@ -23,7 +23,7 @@ spring:
 # Integration configuration
 integration :
   movie :
-    get-category-url: http://localhost:8081/movie/category/categories/{id}
+    get-category-url: http://movie-category-service/movie/category/categories/{id}
 # Logger configuration
 logging:
   pattern:
